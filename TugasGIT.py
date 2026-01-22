@@ -80,3 +80,29 @@ print(f"\nLokasi 4 ({data_panen['lokasi4']['nama_lokasi']}):")
 print(f"  Padi: {padi_lokasi4} kg")
 print(f"  Kedelai: {kedelai_lokasi4} kg")
 print()
+
+print("5. ANALISIS KONDISI LOKASI (PERCABANGAN)")
+print(f"Lokasi 1 ({data_panen['lokasi1']['nama_lokasi']}):")
+print(f"  Padi: {padi_lokasi1} kg, Jagung: {data_panen['lokasi1']['hasil_panen']['jagung']} kg")
+if padi_lokasi1 > 1300 or data_panen['lokasi1']['hasil_panen']['jagung'] > 800:
+    print("  Status: PERLU PERHATIAN KHUSUS")
+else:
+    print("  Status: KONDISI BAIK")
+print(f"\nLokasi 2 ({data_panen['lokasi2']['nama_lokasi']}):")
+print(f"  Padi: {padi_lokasi2} kg, Jagung: {data_panen['lokasi2']['hasil_panen']['jagung']} kg")
+if padi_lokasi2 > 1300 or data_panen['lokasi2']['hasil_panen']['jagung'] > 800:
+    print("  Status: PERLU PERHATIAN KHUSUS")
+else:
+    print("  Status: KONDISI BAIK")
+print(f"\nLokasi 3 ({data_panen['lokasi3']['nama_lokasi']}):")
+print(f"  Padi: {padi_lokasi3} kg, Jagung: {data_panen['lokasi3']['hasil_panen']['jagung']} kg")
+if padi_lokasi3 > 1300 or data_panen['lokasi3']['hasil_panen']['jagung'] > 800:
+    print("  Status: PERLU PERHATIAN KHUSUS")
+else:
+    print("  Status: KONDISI BAIK")
+print(f"\nLokasi 4 ({data_panen['lokasi4']['nama_lokasi']}):")
+print(f"  Padi: {padi_lokasi4} kg, Jagung: {data_panen['lokasi4']['hasil_panen']['jagung']} kg")
+if padi_lokasi4 > 1300 or data_panen['lokasi4']['hasil_panen']['jagung'] > 800:
+    print("  Status: PERLU PERHATIAN KHUSUS")
+else:
+    print("  Status: KONDISI BAIK")
