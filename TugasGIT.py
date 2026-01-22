@@ -54,3 +54,29 @@ print("3. NAMA LOKASI 3")
 nama_lokasi3 = data_panen['lokasi3']['nama_lokasi']
 print(f"Nama lokasi3: {nama_lokasi3}")
 print()
+
+print("4. HASIL PANEN PADI DAN KEDELAI SETIAP LOKASI")
+padi_lokasi1 = data_panen['lokasi1']['hasil_panen']['padi']
+kedelai_lokasi1 = data_panen['lokasi1']['hasil_panen']['kedelai']
+print(f"Lokasi 1 ({data_panen['lokasi1']['nama_lokasi']}):")
+print(f"  Padi: {padi_lokasi1} kg")
+print(f"  Kedelai: {kedelai_lokasi1} kg")
+
+padi_lokasi2 = data_panen['lokasi2']['hasil_panen']['padi']
+kedelai_lokasi2 = data_panen['lokasi2']['hasil_panen']['kedelai']
+print(f"\nLokasi 2 ({data_panen['lokasi2']['nama_lokasi']}):")
+print(f"  Padi: {padi_lokasi2} kg")
+print(f"  Kedelai: {kedelai_lokasi2} kg")
+
+padi_lokasi3 = data_panen['lokasi3']['hasil_panen']['padi']
+kedelai_lokasi3 = data_panen['lokasi3']['hasil_panen']['kedelai']
+print(f"\nLokasi 3 ({data_panen['lokasi3']['nama_lokasi']}):")
+print(f"  Padi: {padi_lokasi3} kg")
+print(f"  Kedelai: {kedelai_lokasi3} kg")
+
+padi_lokasi4 = data_panen['lokasi4']['hasil_panen']['padi']
+kedelai_lokasi4 = data_panen['lokasi4']['hasil_panen']['kedelai']
+print(f"\nLokasi 4 ({data_panen['lokasi4']['nama_lokasi']}):")
+print(f"  Padi: {padi_lokasi4} kg")
+print(f"  Kedelai: {kedelai_lokasi4} kg")
+print()
