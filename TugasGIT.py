@@ -106,3 +106,5 @@ if padi_lokasi4 > 1300 or data_panen['lokasi4']['hasil_panen']['jagung'] > 800:
     print("  Status: PERLU PERHATIAN KHUSUS")
 else:
     print("  Status: KONDISI BAIK")
+
+print("perubahan untuk branch baru")
