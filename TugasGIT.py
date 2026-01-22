@@ -44,3 +44,13 @@ for lokasi, data in data_panen.items():
     print(f"    - Jagung  : {data['hasil_panen']['jagung']} kg")
     print(f"    - Kedelai : {data['hasil_panen']['kedelai']} kg")
 print()
+
+print("2. HASIL PANEN JAGUNG LOKASI 2")
+jagung_lokasi2 = data_panen['lokasi2']['hasil_panen']['jagung']
+print(f"Jumlah hasil panen jagung di lokasi2: {jagung_lokasi2} kg")
+print()
+
+print("3. NAMA LOKASI 3")
+nama_lokasi3 = data_panen['lokasi3']['nama_lokasi']
+print(f"Nama lokasi3: {nama_lokasi3}")
+print()
